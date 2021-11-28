@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Alarm-Clock-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Alarm-Clock-eagle-import.lib)(options "")(descr ""))
+)
