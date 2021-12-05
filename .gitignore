@@ -40,3 +40,8 @@ Thumbs.db
 *.elf
 *.eep
 
+
+##########################################
+# Compilation files
+.SLDPRT
+.stl
