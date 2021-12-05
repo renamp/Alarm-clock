@@ -22,7 +22,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 1350 8200 1400
 Wire Wire Line
-	4850 3150 4650 3150
+	5000 3150 4800 3150
 Wire Wire Line
 	1400 3100 1150 3100
 Wire Wire Line
@@ -78,7 +78,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 3000 1150 3000
 Wire Wire Line
-	4000 4000 4250 4000
+	4150 4000 4400 4000
 Wire Wire Line
 	750  1200 750  1300
 Wire Wire Line
@@ -110,9 +110,9 @@ Wire Wire Line
 Wire Wire Line
 	2750 1300 2650 1300
 Wire Wire Line
-	4850 3250 4650 3250
+	5000 3250 4800 3250
 Wire Wire Line
-	4850 3350 4650 3350
+	5000 3350 4800 3350
 Wire Wire Line
 	2300 5350 1900 5350
 Wire Wire Line
@@ -122,13 +122,9 @@ Wire Wire Line
 Wire Wire Line
 	9500 1350 9500 1500
 Wire Wire Line
-	4850 3450 4000 3450
+	4150 3700 4350 3700
 Wire Wire Line
-	4000 3700 4200 3700
-Wire Wire Line
-	4200 3700 4200 3550
-Wire Wire Line
-	4200 3550 4850 3550
+	4800 3550 5000 3550
 $Comp
 L Alarm-Clock-eagle-import:MEGA8-AI IC1
 U 1 1 22F7723E
@@ -176,23 +172,23 @@ $EndComp
 $Comp
 L Alarm-Clock-eagle-import:PINHD-1X8 JP1
 U 1 1 9FA72D5F
-P 5600 3550
-F 0 "JP1" H 5350 4075 59  0000 L BNN
-F 1 "MP3-R" H 5350 3050 59  0000 L BNN
-F 2 "Alarm-Clock:1X08" H 5600 3550 50  0001 C CNN
-F 3 "" H 5600 3550 50  0001 C CNN
-	1    5600 3550
+P 5750 3550
+F 0 "JP1" H 5500 4075 59  0000 L BNN
+F 1 "MP3-R" H 5500 3050 59  0000 L BNN
+F 2 "Alarm-Clock:1X08" H 5750 3550 50  0001 C CNN
+F 3 "" H 5750 3550 50  0001 C CNN
+	1    5750 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Alarm-Clock-eagle-import:PINHD-1X8 JP2
 U 1 1 83BD4EC0
-P 4950 3550
-F 0 "JP2" H 4700 4075 59  0000 L BNN
-F 1 "MP3-L" H 4700 3050 59  0000 L BNN
-F 2 "Alarm-Clock:1X08" H 4950 3550 50  0001 C CNN
-F 3 "" H 4950 3550 50  0001 C CNN
-	1    4950 3550
+P 5100 3550
+F 0 "JP2" H 4850 4075 59  0000 L BNN
+F 1 "MP3-L" H 4850 3050 59  0000 L BNN
+F 2 "Alarm-Clock:1X08" H 5100 3550 50  0001 C CNN
+F 3 "" H 5100 3550 50  0001 C CNN
+	1    5100 3550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -275,34 +271,34 @@ $EndComp
 $Comp
 L Alarm-Clock-eagle-import:PINHD-1X1 JP8
 U 1 1 357D3C8D
-P 3900 3450
-F 0 "JP8" H 3650 3575 59  0000 L BNN
-F 1 "PIN" H 3650 3250 59  0000 L BNN
-F 2 "Alarm-Clock:1X01" H 3900 3450 50  0001 C CNN
-F 3 "" H 3900 3450 50  0001 C CNN
-	1    3900 3450
+P 4050 3450
+F 0 "JP8" H 3800 3575 59  0000 L BNN
+F 1 "PIN" H 3800 3250 59  0000 L BNN
+F 2 "Alarm-Clock:1X01" H 4050 3450 50  0001 C CNN
+F 3 "" H 4050 3450 50  0001 C CNN
+	1    4050 3450
 	-1   0    0    1   
 $EndComp
 $Comp
 L Alarm-Clock-eagle-import:PINHD-1X1 JP9
 U 1 1 C8B46213
-P 3900 3700
-F 0 "JP9" H 3650 3825 59  0000 L BNN
-F 1 "PIN" H 3650 3500 59  0000 L BNN
-F 2 "Alarm-Clock:1X01" H 3900 3700 50  0001 C CNN
-F 3 "" H 3900 3700 50  0001 C CNN
-	1    3900 3700
+P 4050 3700
+F 0 "JP9" H 3800 3825 59  0000 L BNN
+F 1 "PIN" H 3800 3500 59  0000 L BNN
+F 2 "Alarm-Clock:1X01" H 4050 3700 50  0001 C CNN
+F 3 "" H 4050 3700 50  0001 C CNN
+	1    4050 3700
 	-1   0    0    1   
 $EndComp
 $Comp
 L Alarm-Clock-eagle-import:PINHD-1X1 JP13
 U 1 1 9B8C9E68
-P 3900 4000
-F 0 "JP13" H 3650 4125 59  0000 L BNN
-F 1 "PIN" H 3650 3800 59  0000 L BNN
-F 2 "Alarm-Clock:1X01" H 3900 4000 50  0001 C CNN
-F 3 "" H 3900 4000 50  0001 C CNN
-	1    3900 4000
+P 4050 4000
+F 0 "JP13" H 3800 4125 59  0000 L BNN
+F 1 "PIN" H 3800 3800 59  0000 L BNN
+F 2 "Alarm-Clock:1X01" H 4050 4000 50  0001 C CNN
+F 3 "" H 4050 4000 50  0001 C CNN
+	1    4050 4000
 	-1   0    0    1   
 $EndComp
 Text Label 4200 5650 0    50   ~ 0
@@ -337,18 +333,18 @@ Text Label 1150 3300 2    50   ~ 0
 PC5
 Text Label 4200 6350 0    50   ~ 0
 PD1
-Text Label 4650 3250 2    50   ~ 0
+Text Label 4800 3250 2    50   ~ 0
 PD1
-Text Label 4650 3350 2    50   ~ 0
+Text Label 4800 3350 2    50   ~ 0
 PD0
 Text Label 4200 6250 0    50   ~ 0
 PD0
 Text Label 4200 6650 0    50   ~ 0
 PD4
-Text Label 5300 3150 2    50   ~ 0
+Text Label 5450 3150 2    50   ~ 0
 PD4
 Wire Wire Line
-	5300 3150 5500 3150
+	5450 3150 5650 3150
 Wire Wire Line
 	9100 1350 9100 1400
 Text Label 4200 7150 0    50   ~ 0
@@ -387,7 +383,7 @@ Text Label 500  700  2    50   ~ 0
 GND
 Text Label 1150 3000 2    50   ~ 0
 GND
-Text Label 4650 3750 2    50   ~ 0
+Text Label 4800 3750 2    50   ~ 0
 GND
 Text Label 2250 6550 2    50   ~ 0
 GND
@@ -410,7 +406,7 @@ Wire Wire Line
 	8500 1350 8500 1400
 Text Label 8500 1400 3    50   ~ 0
 GND
-Text Label 4650 3150 2    50   ~ 0
+Text Label 4800 3150 2    50   ~ 0
 VCC
 Text Label 1150 3100 2    50   ~ 0
 VCC
@@ -605,9 +601,7 @@ RTC module
 Wire Notes Line
 	3150 0    3150 4400
 Wire Wire Line
-	4250 4000 4250 3750
-Wire Wire Line
-	4250 3750 4850 3750
+	4800 3750 5000 3750
 Text Notes 3400 2600 0    197  ~ 0
 DFPlayer
 Wire Notes Line
@@ -616,4 +610,35 @@ Wire Notes Line
 	0    4400 6150 4400
 Text Notes 300  4850 0    197  ~ 0
 Microcontroller
+$Comp
+L Connector:AudioJack4 J1
+U 1 1 61AD099A
+P 3500 3650
+F 0 "J1" H 3457 3975 50  0000 C CNN
+F 1 "AudioJack3" H 3457 3884 50  0000 C CNN
+F 2 "Alarm-Clock:Jack_3.5mm_PJ320D_Horizontal" H 3500 3650 50  0001 C CNN
+F 3 "~" H 3500 3650 50  0001 C CNN
+	1    3500 3650
+	1    0    0    -1  
+$EndComp
+Text Label 3700 3650 0    50   ~ 0
+GND
+Text Label 4400 4000 0    50   ~ 0
+GND
+Text Label 3700 3750 0    50   ~ 0
+J_R1
+Text Label 3700 3550 0    50   ~ 0
+J_S
+Text Label 4350 3700 0    50   ~ 0
+J_S
+Wire Wire Line
+	4350 3450 4150 3450
+Text Label 4800 3450 2    50   ~ 0
+J_R1
+Wire Wire Line
+	5000 3450 4800 3450
+Text Label 4350 3450 0    50   ~ 0
+J_R1
+Text Label 4800 3550 2    50   ~ 0
+J_S
 $EndSCHEMATC
